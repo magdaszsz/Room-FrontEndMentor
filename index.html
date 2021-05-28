@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -23,17 +22,18 @@
     <section class="slider">
       <main class="hero">
         <nav>
-          <div class="hamburger">
-            <img src="images/icon-hamburger.svg" alt="">
+          <div class="nav__icon">
+            <img class="hamburger" src="images/icon-hamburger.svg" alt="">
+            <img class="close" src="images/icon-close.svg" alt="">
           </div>
           <div class="logo">
             <img src="images/logo.svg" />
           </div>
           <ul class="nav__list">
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>home</li>
+            <li>shop</li>
+            <li>about</li>
+            <li>contact</li>
           </ul>
         </nav>
         <div class="controls">
@@ -42,21 +42,29 @@
         </div>
       </main>
       <div class="slide-1 slide">
-        <h2 class="slide__text-header">Discover innovative ways to decorate</h2>
-        <p>
-          We provide unmatched quality, comfort, and style for property owners
-          across the country. Our experts combine form and function in bringing
-          your vision to life. Create a room in your own style with our
-          collection and make your property a reflection of you and what you
-          love.
-        </p>
-        <button class="btn">
-          Shop now<span class="btn-arrow"
-            ><img src="images/icon-arrow.svg"
-          /></span>
-        </button>
+        <div class="slide-image">
+
+        </div>
+        <div class="slide-body">
+          <h2 class="slide__text-header">Discover innovative ways to decorate</h2>
+          <p>
+            We provide unmatched quality, comfort, and style for property owners
+            across the country. Our experts combine form and function in bringing
+            your vision to life. Create a room in your own style with our
+            collection and make your property a reflection of you and what you
+            love.
+          </p>
+          <button class="btn">
+            Shop now<span class="btn-arrow"
+              ><img src="images/icon-arrow.svg"
+            /></span>
+          </button>
+        </div>
       </div>
-      <div class="slide-2 slide">
+  
+    <div class="slide slide-2">
+      <div class="slide-image"></div>
+      <div class="slide-body">
         <h2 class="slide__text-header">
           We are available all across the globe
         </h2>
@@ -72,7 +80,10 @@
           /></span>
         </button>
       </div>
-      <div class="slide-3 slide">
+    </div>
+       <div class="slide slide-3">
+      <div class="slide-image"></div>
+      <div class="slide-body">
         <h2 class="slide__text-header">Manufactured with the best materials</h2>
         <p>
           Our modern furniture store provide a high level of quality. Our
@@ -87,7 +98,41 @@
           /></span>
         </button>
       </div>
+      </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="about">
       <img class="about__image" src="images/image-about-dark.jpg" />
@@ -105,5 +150,6 @@
 
       <img class="about__image" src="images/image-about-light.jpg" />
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
