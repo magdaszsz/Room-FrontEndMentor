@@ -9,7 +9,101 @@
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
   --very-d-gray: hsl(0, 0%, 27%);
-  --spartan: font-family: 'Spartan', sans-serif;
+  --spartan: 'Spartan', sans-serif;
 }
 
-Font size: 12px
+.nav__list {
+  display: none;
+}
+
+nav {
+  border: 2px solid red;
+  //display: grid;
+  display: flex;
+  padding: 2rem;
+  
+}
+
+.logo {
+  //justify-self: center;
+  margin: auto;
+  border: 2px solid salmon;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: var(--spartan);
+}
+
+.hero {
+  height: 50vh;
+  background-image: url(images/mobile-image-hero-1.jpg);
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+}
+
+.controls-btn {
+  cursor: pointer;
+  padding: 1rem;
+  background: black;
+  border: none;
+  margin: 0;
+}
+
+.about__text, 
+.slide {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.btn {
+  all: initial;
+  text-transform: uppercase;
+  font-family: var(--spartan);
+  letter-spacing: .5em;
+  font-size: .9rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.btn-arrow {
+  margin-left: 1rem;
+}
+
+p {
+  color: var(--d-gray);
+  //line-height: 1.7rem;
+  font-size: .9rem;
+  
+}
+
+.about__text-header {
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+
+}
+
+.about__text-header, 
+.slide__text-header {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.slide__text-header {
+  font-size: 1.7rem;
+}
